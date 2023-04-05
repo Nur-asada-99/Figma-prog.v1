@@ -1,0 +1,559 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+
+}
+.main {
+    position: absolute;
+    width: 1920px;
+    height: 800px;
+    left: 0px;
+    top: 0px;
+    background-image: url(./bgc.png);
+    background-size: cover;
+}
+
+.logo {
+    position: absolute;
+    width: 175.27px;
+    height: 24px;
+    left: 180px;
+    top: 45px;
+
+    background: url(logo\ 1.png);
+}
+
+
+.text-had h1 {
+    position: absolute;
+    width: 420px;
+    height: 74px;
+    left: 403px;
+    top: 274px;
+
+    /* heading / h1 */
+
+    font-family: 'Plumb';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 160%;
+    /* or 102px */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+
+
+.text-had p {
+    position: absolute;
+    width: 533px;
+    height: 68px;
+    left: 405px;
+    top: 383px;
+
+    /* p / p_h1 */
+
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 140%;
+    /* or 34px */
+    /* text-decoration: none; */
+
+
+    color: #FFFFFF;
+}
+
+.text-had a {
+    position: absolute;
+    width: 533px;
+    height: 68px;
+    left: 405px;
+    top: 550px;
+
+    /* p / p_h1 */
+
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 140%;
+    /* or 34px */
+
+    color: #FFFFFF;
+}
+
+hr {
+    position: absolute;
+    width: 1920px;
+    top: 90px;
+
+    border: 3px solid #FFFFFF;
+}
+
+
+.Globe {
+    position: absolute;
+    left: 86.35%;
+    right: 12.6%;
+    top: 4.50%;
+    bottom: 98.51%;
+
+    /* background: #FFFFFF; */
+}
+
+.Globe p {
+    position: absolute;
+    width: 51px;
+    height: 22px;
+    left: 34px;
+    top: 0px;
+}
+
+.Search {
+    position: absolute;
+    left: 81.67%;
+    right: 17.29%;
+    top: 4.50%;
+    bottom: 98.51%;
+
+    /* background: #FFFFFF; */
+}
+
+
+.head nav ul li {
+    list-style: none;
+    padding: 35px;
+    
+}
+
+
+.head nav ul {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 135%;
+
+
+    margin-top: 0px;
+    
+    
+}
+
+/* ------------------------------------------------------- */
+
+
+
+
+
+
+/* ------------------------------------------------------------- */
+
+
+
+
+.green {
+    position: absolute;
+    width: 255px;
+    height: 148px;
+    left: 975px;
+    top: 394px;
+    background-color: #2378FC ;
+}
+
+.green h3 {
+    position: absolute;
+    width: 127px;
+    height: 54px;
+    left: 28px;
+    top: 2px;
+
+    /* heading / h3 */
+
+    font-family: 'Plumb';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 130%;
+    /* or 27px */
+
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+}
+
+.green a {
+    position: absolute;
+    width: 72px;
+    height: 19px;
+    left: 28px;
+    top: 113px;
+
+    /* p / 14px */
+
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+    text-decoration: none;
+    /* identical to box height, or 19px */
+
+
+    color: #FFFFFF;
+}
+
+
+.blue {
+    position: absolute;
+    width: 255px;
+    height: 175px;
+    left: 975px;
+    top: 572px;
+    background-color: #30BCC9 ;
+}
+
+
+.blue h3 {
+    position: absolute;
+    width: 150px;
+    height: 54px;
+    left: 28px;
+    top: 5px;
+
+    /* heading / h3 */
+
+    font-family: 'Plumb';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 130%;
+    /* or 27px */
+
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+}
+
+.blue a {
+    position: absolute;
+    width: 72px;
+    height: 19px;
+    left: 28px;
+    top: 135px;
+
+    /* p / 14px */
+
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+    text-decoration: none;
+    /* identical to box height, or 19px */
+
+
+    color: #FFFFFF;
+}
+
+.red {
+    position: absolute;
+    width: 255px;
+    height: 148px;
+    left: 1260px;
+    top: 394px;
+    background-color: #FFC41E ;
+
+}
+
+
+.red h3 {
+    position: absolute;
+    width: 175px;
+    height: 54px;
+    left: 28px;
+    top: 9px;
+
+    font-family: 'Plumb';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 130%;
+    /* or 27px */
+
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+}
+
+.red a {
+    position: absolute;
+    width: 72px;
+    height: 19px;
+    left: 28px;
+    top: 113px;
+    
+    /* p / 14px */
+    
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+    text-decoration: none;
+    /* identical to box height, or 19px */
+    
+    
+    color: #FFFFFF;
+}
+
+.gray {
+    position: absolute;
+    width: 255px;
+    height: 175px;
+    left: 1260px;
+    top: 572px;
+    background-color: #F6404F;
+
+}
+
+.gray h3 {
+    position: absolute;
+    width: 175px;
+    height: 54px;
+    left: 28px;
+    top: 9px;
+
+    font-family: 'Plumb';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 130%;
+    /* or 27px */
+
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+}
+
+.gray a {
+    position: absolute;
+    width: 72px;
+    height: 19px;
+    left: 28px;
+    top: 135px;
+    
+    /* p / 14px */
+    
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+    text-decoration: none;
+    /* identical to box height, or 19px */
+    
+    
+    color: #FFFFFF;
+}
+
+
+/* --------Общий блок 4 разноцветных---------- */
+
+.bloks {
+    display: flex;
+    flex-wrap:wrap;
+    margin-left: 1000px;
+    margin-top: 100px;
+    
+}
+
+
+/* ---------------------------------------Синий сектор общий задний фон размер ----------------------------------------------------------------------- */
+
+.blok-1 {
+    position: absolute;
+    width: 1920px;
+    height: 426px;
+    left: 0px;
+    top: 800px;
+    background-color: #2378FC;
+}
+
+/* ------свойство синий сектор--ТЕКСТ---- */
+
+.pool {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    font-size: 21px;
+    line-height: 150%;
+    color:  #FFFFFF; 
+    
+
+}
+
+/* -----------------------------------------Желтый сектор общий задний фон размер----------------------------------------------------------------------- */
+
+.blok-2{
+    position: absolute;
+    width: 1920px;
+    height: 984px;
+    left: 0px;
+    top: 1226px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Main / Yellow */
+
+    background: #FFC41E;
+}
+/* -----свойство желтый ----ИКОНКИ---- */
+.pool-2 {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    width: 1200px;
+    height: 750px;
+    font-size: 16px;
+    margin-top: 40px;
+    
+}
+
+
+
+ 
+.pool-2 h3 {
+    color: #F6404F;
+}
+
+/* 
+.bloki-1 {
+    border: 3px solid rebeccapurple;
+}
+
+.bloki-1:hover {
+    width: 360px;
+    height: 358px;
+    transition: 150ms;
+}
+
+.bloki-2 {
+    border: 3px solid rebeccapurple;
+}
+
+.bloki-2:hover {
+    width: 360px;
+    height: 358px;
+    transition: 150ms;
+}
+
+
+
+.bloki-3 {
+    border: 3px solid rebeccapurple;
+}
+
+.bloki-3:hover {
+    width: 360px;
+    height: 358px;
+    transition: 150ms;
+}
+
+
+
+.bloki-4 {
+    border: 3px solid rebeccapurple;
+}
+
+.bloki-4:hover {
+    width: 360px;
+    height: 358px;
+    transition: 150ms;
+}
+
+
+
+.bloki-5 {
+    border: 3px solid rebeccapurple;
+}
+
+.bloki-5:hover {
+    width: 360px;
+    height: 358px;
+    transition: 150ms;
+}
+
+
+
+.bloki-6 {
+    border: 3px solid rebeccapurple;
+} 
+
+.bloki-6:hover {
+    width: 360px;
+    height: 358px;
+    transition: 150ms;
+} */
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+.blok-3{
+    position: absolute;
+    width: 1920px;
+    height: 649px;
+    left: 0px;
+    top: 2210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Main / IceCream */
+
+    background: #FAF3E3;
+}
+
+.ad-0 {
+    width: 1000px;
+    height: 500px;
+    border: 3px solid red;
+    display: flex;
+}
+
+.ad-1 {
+    position: absolute;
+    width: 445px;
+    height: 215px;
+    margin-left: -550px;
+    margin-top: -280px;
+}
+
+.ad-2 {
+    position: absolute;
+    width: 445px;
+    height: 215px;
+    margin-left: -550px;
+    margin-top: 280px;
+}
+
+
+
+
+.footer{
+    width: 1920px;
+    margin-top: 2870px;
+    
+    
+}
