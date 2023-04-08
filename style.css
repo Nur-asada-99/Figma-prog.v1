@@ -88,13 +88,13 @@ body {
     color: #FFFFFF;
 }
 
-hr {
+/* hr {
     position: absolute;
     width: 1920px;
     top: 90px;
 
     border: 3px solid #FFFFFF;
-}
+} */
 
 
 .Globe {
@@ -526,9 +526,8 @@ hr {
 }
 
 .ad-0 {
-    width: 1000px;
+    width: 1100px;
     height: 500px;
-    border: 3px solid red;
     display: flex;
 }
 
@@ -547,6 +546,105 @@ hr {
     margin-left: -550px;
     margin-top: 280px;
 }
+
+
+
+.ad-3 {
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    margin-left: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 90px;
+
+    
+
+}
+
+
+/* ======== 3 маленких блока с картинками ========= */
+.ims {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap-reverse;
+    width: 150px;
+    height: -630px;
+    margin-top: -95px;
+
+}
+
+.ims h2 {
+    font-family: 'Plumb';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 130%;
+    color: #2E373B;
+    margin-left: -30px;
+}
+.kar1 {
+    width: 160px;
+    height: 120px;
+    background-image: url(./Rectangle\ 11.png);
+    margin-top: 30px;
+}
+.kar2 {
+    width: 160px;
+    height: 120px;
+    background-image: url(./Rectangle\ 11\ \(1\).png);
+    margin-top: 30px;
+}
+.kar3 {
+    width: 160px;
+    height: 120px;
+    background-image: url(./Rectangle\ 11\ \(2\).png);
+    margin-top: 30px;
+}
+
+.con {
+    width: 500px;
+    height: 510px;
+}
+
+
+.ad-4 h3 {
+    /* display: flexbox; */
+    /* justify-content: space-around; */
+    font-family: 'Plumb';
+    font-style: normal;
+    font-size: 21px;
+    line-height: 130%;
+    margin-left: 170px;
+    
+}
+.ad-4 h3 span {
+    color: #F6404F;
+}
+
+/* ====== Кнопка все ======== */
+.vce h3{
+    margin-left: 350px;
+    margin-top: -5px;
+    color: #2E373B;
+}
+/* ===== Текст отцтупы ===== */
+.spos {
+    margin-top: 100px;
+}
+.spor {
+    margin-top: 65px;
+}
+.spoas {
+    margin-top: 70px;
+}
+
+.ad-4 {
+    margin-left: -500px;
+}
+
+
 
 
 
